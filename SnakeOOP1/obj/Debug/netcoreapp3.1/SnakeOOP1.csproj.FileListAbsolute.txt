@@ -1,0 +1,13 @@
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.exe
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.deps.json
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.runtimeconfig.json
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.runtimeconfig.dev.json
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.dll
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\bin\Debug\netcoreapp3.1\SnakeOOP1.pdb
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.AssemblyInfo.cs
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.dll
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.pdb
+C:\Users\opilane\source\repos\SnakeOOP1\SnakeOOP1\obj\Debug\netcoreapp3.1\SnakeOOP1.genruntimeconfig.cache
