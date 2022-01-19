@@ -25,15 +25,21 @@ namespace SnakeOOP1
             right.Draw();
 
             Point snakeTail = new Point(15, 15, 's');
-            Snake snake = new Snake(snakeTail, 5, Direction.RIGHT);
+            Snake snake = new Snake(snakeTail, 5, Direction.DOWN);
             snake.Draw();
-            snake.Move();
-
-            for(int i = 0; i < 10; i++)
+            
+            while (true)
             {
+                if(Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    snake.HandleKeys(key.Key);
+                }
+
                 Thread.Sleep(300);
                 snake.Move();
             }
+            
             Console.ReadLine();
         }
     }

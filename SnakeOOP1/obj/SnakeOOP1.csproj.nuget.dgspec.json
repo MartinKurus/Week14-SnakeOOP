@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\SnakeOOP1\\SnakeOOP1\\SnakeOOP1.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\Week14-SnakeOOP\\SnakeOOP1\\SnakeOOP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\SnakeOOP1\\SnakeOOP1\\SnakeOOP1.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\Week14-SnakeOOP\\SnakeOOP1\\SnakeOOP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\SnakeOOP1\\SnakeOOP1\\SnakeOOP1.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Week14-SnakeOOP\\SnakeOOP1\\SnakeOOP1.csproj",
         "projectName": "SnakeOOP1",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\SnakeOOP1\\SnakeOOP1\\SnakeOOP1.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\Week14-SnakeOOP\\SnakeOOP1\\SnakeOOP1.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\SnakeOOP1\\SnakeOOP1\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\Week14-SnakeOOP\\SnakeOOP1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
