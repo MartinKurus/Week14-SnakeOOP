@@ -11,7 +11,7 @@ namespace SnakeOOP1
         {
             pointList = new List<Point>();
 
-            for(int i = xLeft; i<= xRight; i++)
+            for(int i = xLeft; i <= xRight; i++)
             {
                 Point p = new Point(i, y, symb);
                 pointList.Add(p);

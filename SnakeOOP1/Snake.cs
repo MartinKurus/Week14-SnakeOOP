@@ -12,14 +12,14 @@ namespace SnakeOOP1
         {
             direction = _direction;
             pointList = new List<Point>();
-            for(int i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
             {
                 Point p = new Point(tail);
                 p.Move(i, direction);
                 pointList.Add(p);
             }
-
         }
+        // ******
         public void Move()
         {
             Point tail = pointList.First();
@@ -29,8 +29,10 @@ namespace SnakeOOP1
             Point head = GetNextPoint();
             pointList.Add(head);
             head.Draw();
-
+            Random rnd = new Random();
+            Console.ForegroundColor = (ConsoleColor)rnd.Next(1, 3);
         }
+
 
         public Point GetNextPoint()
         {
@@ -42,19 +44,50 @@ namespace SnakeOOP1
 
         public void HandleKeys(ConsoleKey key)
         {
-            if(key == ConsoleKey.LeftArrow)
+            if (key == ConsoleKey.LeftArrow)
             {
                 direction = Direction.LEFT;
-            } else if (key == ConsoleKey.RightArrow)
+            }
+            else if (key == ConsoleKey.RightArrow)
             {
                 direction = Direction.RIGHT;
-            } else if(key == ConsoleKey.UpArrow)
+            }
+            else if (key == ConsoleKey.UpArrow)
             {
                 direction = Direction.UP;
-            } else if(key == ConsoleKey.DownArrow)
+            }
+            else if (key == ConsoleKey.DownArrow)
             {
                 direction = Direction.DOWN;
             }
+        }
+
+        //********
+        public bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(food))
+            {
+                food.symb = head.symb;
+                pointList.Add(food);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool IsHitTail()
+        {
+            Point head = pointList.Last();
+            for (int i = 0; i < pointList.Count - 2; i++)
+            {
+                if (head.IsHit(pointList[i]))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
